@@ -245,7 +245,7 @@
             }
           },
           {
-            "name": "Other",
+            "name": "Else",
             "type": "Option",
             "classroomType":"infant",
             "payload": {
@@ -487,7 +487,7 @@
     "type": "Section",
     "classroomType":"infant",
     "payload": {
-      "comment_text": "Today $childName Was"
+      "comment_text": "$childName was $value."
     },
     "categories": [
       {
@@ -497,7 +497,7 @@
         "payload": {
           "iconUrl": "https://s3.amazonaws.com/nurture-dev-categories-icons/mood/happy.png",
           "selection": true,
-          "comment_text": "happy"
+          "comment_text": "happy today"
         }
       },
       {
@@ -507,7 +507,7 @@
         "payload": {
           "iconUrl": "https://s3.amazonaws.com/nurture-dev-categories-icons/mood/sad.png",
           "selection": true,
-          "comment_text": "sad"
+          "comment_text": "sad today"
         }
       },
       {
@@ -517,7 +517,7 @@
         "payload": {
           "iconUrl": "https://s3.amazonaws.com/nurture-dev-categories-icons/mood/quiet.png",
           "selection": true,
-          "comment_text": "quiet"
+          "comment_text": "quiet today"
         }
       },
       {
@@ -527,7 +527,7 @@
         "payload": {
           "iconUrl": "https://s3.amazonaws.com/nurture-dev-categories-icons/mood/talkative.png",
           "selection": true,
-          "comment_text": "talkative"
+          "comment_text": "talkative today"
         }
       },
       {
@@ -537,7 +537,7 @@
         "payload": {
           "iconUrl": "https://s3.amazonaws.com/nurture-dev-categories-icons/mood/busy_playful.png",
           "selection": true,
-          "comment_text": "busy/playful"
+          "comment_text": "busy/playful today"
         }
       },
       {
@@ -547,7 +547,7 @@
         "payload": {
           "iconUrl": "https://s3.amazonaws.com/nurture-dev-categories-icons/mood/tired.png",
           "selection": true,
-          "comment_text": "tired/fussy"
+          "comment_text": "tired/fussy today"
         }
       },
       {
@@ -557,7 +557,7 @@
         "payload": {
           "iconUrl": "https://s3.amazonaws.com/nurture-dev-categories-icons/mood/cuddly.png",
           "selection": true,
-          "comment_text": "cuddly"
+          "comment_text": "cuddly today"
         }
       }
     ]
@@ -769,7 +769,7 @@
       {
         "name": "Supplies",
         "type": "Category",
-        "classroomType":"infant",
+        "classroomType":"classroom",
         "payload": {
           "iconUrl": "https://s3.amazonaws.com/nurture-dev-categories-icons/activity/supplies.png",
           "comment_text": "Supplies required by teacher: $value."
@@ -778,7 +778,7 @@
           {
             "name": "Diapers",
             "type": "Option",
-            "classroomType":"infant",
+            "classroomType":"classroom",
             "payload": {
               "selection": true,
               "comment_text": "diapers"
@@ -787,7 +787,7 @@
           {
             "name": "Ointment",
             "type": "Option",
-            "classroomType":"infant",
+            "classroomType":"classroom",
             "payload": {
               "selection": true,
               "comment_text": "ointment"
@@ -796,7 +796,7 @@
           {
             "name": "Wipes",
             "type": "Option",
-            "classroomType":"infant",
+            "classroomType":"classroom",
             "payload": {
               "selection": true,
               "comment_text": "wipes"
@@ -805,7 +805,7 @@
           {
             "name": "Jar Food",
             "type": "Option",
-            "classroomType":"infant",
+            "classroomType":"classroom",
             "payload": {
               "selection": true,
               "comment_text": "jar food"
@@ -814,7 +814,7 @@
           {
             "name": "Extra Clothes",
             "type": "Option",
-            "classroomType":"infant",
+            "classroomType":"classroom",
             "payload": {
               "selection": true,
               "comment_text": "extra clothes"
@@ -823,16 +823,16 @@
           {
             "name": "Cereal",
             "type": "Subcategory",
-            "classroomType":"infant",
+            "classroomType":"classroom",
             "payload": {
               "selection": true,
               "comment_text": "cereal"
             }
           },
           {
-            "name": "Other",
+            "name": "Else",
             "type": "Option",
-            "classroomType":"infant",
+            "classroomType":"classroom",
             "payload": {
               "input": true,
               "inputType": "text",
@@ -895,7 +895,7 @@
     "type": "Section",
     "classroomType":"classroom",
     "payload": {
-      "comment_text": "$childName shown $value value today."
+      "comment_text": "$childName demonstrated $value value today."
     },
     "categories": [
       {
@@ -1095,7 +1095,7 @@
         "payload": {
           "iconUrl": "https://s3.amazonaws.com/nurture-dev-categories-icons/mood/happy.png",
           "selection": true,
-          "comment_text": "happy"
+          "comment_text": "happy today"
         }
       },
       {
@@ -1105,7 +1105,7 @@
         "payload": {
           "iconUrl": "https://s3.amazonaws.com/nurture-dev-categories-icons/mood/sad.png",
           "selection": true,
-          "comment_text": "sad"
+          "comment_text": "sad today"
         }
       },
       {
@@ -1115,7 +1115,7 @@
         "payload": {
           "iconUrl": "https://s3.amazonaws.com/nurture-dev-categories-icons/mood/quiet.png",
           "selection": true,
-          "comment_text": "quiet"
+          "comment_text": "quiet today"
         }
       },
       {
@@ -1125,7 +1125,7 @@
         "payload": {
           "iconUrl": "https://s3.amazonaws.com/nurture-dev-categories-icons/mood/talkative.png",
           "selection": true,
-          "comment_text": "talkative"
+          "comment_text": "talkative today"
         }
       },
       {
@@ -1135,7 +1135,7 @@
         "payload": {
           "iconUrl": "https://s3.amazonaws.com/nurture-dev-categories-icons/mood/busy_playful.png",
           "selection": true,
-          "comment_text": "busy/playful"
+          "comment_text": "busy/playful today"
         }
       },
       {
@@ -1177,7 +1177,7 @@
     "type": "Section",
     "classroomType":"classroom",
     "payload": {
-      "comment_text": "$childName had $value behavior."
+      "comment_text": "$childName demonstrated $value behavior today."
     },
     "categories": [
       {
