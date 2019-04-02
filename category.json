@@ -25,11 +25,12 @@
     ]
   },
   {
-    "name": "Activity",
+    "name": "General Care",
     "type": "Section",
     "classroomType":"infant",
     "payload": {},
     "categories": [
+
       {
         "name": "Diaper Check",
         "type": "Category",
@@ -123,6 +124,81 @@
               "input": true,
               "inputType": "text",
               "comment_text": "\nMedication type: $value"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Supplies",
+        "type": "Category",
+        "classroomType":"infant",
+        "payload": {
+          "iconUrl": "https://s3.amazonaws.com/nurture-dev-categories-icons/activity/supplies.png",
+          "comment_text": "Supplies required by teacher: $value."
+        },
+        "Options": [
+          {
+            "name": "Diapers",
+            "type": "Option",
+            "classroomType":"infant",
+            "payload": {
+              "selection": true,
+              "comment_text": "diapers"
+            }
+          },
+          {
+            "name": "Ointment",
+            "type": "Option",
+            "classroomType":"infant",
+            "payload": {
+              "selection": true,
+              "comment_text": "ointment"
+            }
+          },
+          {
+            "name": "Wipes",
+            "type": "Option",
+            "classroomType":"infant",
+            "payload": {
+              "selection": true,
+              "comment_text": "wipes"
+            }
+          },
+          {
+            "name": "Jar Food",
+            "type": "Option",
+            "classroomType":"infant",
+            "payload": {
+              "selection": true,
+              "comment_text": "jar food"
+            }
+          },
+          {
+            "name": "Extra Clothes",
+            "type": "Option",
+            "classroomType":"infant",
+            "payload": {
+              "selection": true,
+              "comment_text": "extra clothes"
+            }
+          },
+          {
+            "name": "Cereal",
+            "type": "Subcategory",
+            "classroomType":"infant",
+            "payload": {
+              "selection": true,
+              "comment_text": "cereal"
+            }
+          },
+          {
+            "name": "Other",
+            "type": "Option",
+            "classroomType":"infant",
+            "payload": {
+              "input": true,
+              "inputType": "text",
+              "comment_text": "$value"
             }
           }
         ]
@@ -439,81 +515,7 @@
     "classroomType":"infant",
     "payload": {},
     "categories": [
-      {
-        "name": "Supplies",
-        "type": "Category",
-        "classroomType":"infant",
-        "payload": {
-          "iconUrl": "https://s3.amazonaws.com/nurture-dev-categories-icons/activity/supplies.png",
-          "comment_text": "Supplies required by teacher: $value."
-        },
-        "Options": [
-          {
-            "name": "Diapers",
-            "type": "Option",
-            "classroomType":"infant",
-            "payload": {
-              "selection": true,
-              "comment_text": "diapers"
-            }
-          },
-          {
-            "name": "Ointment",
-            "type": "Option",
-            "classroomType":"infant",
-            "payload": {
-              "selection": true,
-              "comment_text": "ointment"
-            }
-          },
-          {
-            "name": "Wipes",
-            "type": "Option",
-            "classroomType":"infant",
-            "payload": {
-              "selection": true,
-              "comment_text": "wipes"
-            }
-          },
-          {
-            "name": "Jar Food",
-            "type": "Option",
-            "classroomType":"infant",
-            "payload": {
-              "selection": true,
-              "comment_text": "jar food"
-            }
-          },
-          {
-            "name": "Extra Clothes",
-            "type": "Option",
-            "classroomType":"infant",
-            "payload": {
-              "selection": true,
-              "comment_text": "extra clothes"
-            }
-          },
-          {
-            "name": "Cereal",
-            "type": "Subcategory",
-            "classroomType":"infant",
-            "payload": {
-              "selection": true,
-              "comment_text": "cereal"
-            }
-          },
-          {
-            "name": "Other",
-            "type": "Option",
-            "classroomType":"infant",
-            "payload": {
-              "input": true,
-              "inputType": "text",
-              "comment_text": "$value"
-            }
-          }
-        ]
-      },
+      
       {
         "name": "Notes",
         "type": "Category",
@@ -1089,81 +1091,7 @@
     "classroomType":"classroom",
     "payload": {},
     "categories": [
-      {
-        "name": "Supplies",
-        "type": "Category",
-        "classroomType":"classroom",
-        "payload": {
-          "iconUrl": "https://s3.amazonaws.com/nurture-dev-categories-icons/activity/supplies.png",
-          "comment_text": "Supplies required by teacher: $value."
-        },
-        "Subcategories": [
-          {
-            "name": "Diapers",
-            "type": "Subcategory",
-            "classroomType":"classroom",
-            "payload": {
-              "selection": true,
-              "comment_text": "diapers"
-            }
-          },
-          {
-            "name": "Ointment",
-            "type": "Subcategory",
-            "classroomType":"classroom",
-            "payload": {
-              "selection": true,
-              "comment_text": "ointment"
-            }
-          },
-          {
-            "name": "Wipes",
-            "type": "Subcategory",
-            "classroomType":"classroom",
-            "payload": {
-              "selection": true,
-              "comment_text": "wipes"
-            }
-          },
-          {
-            "name": "Jar Food",
-            "type": "Subcategory",
-            "classroomType":"classroom",
-            "payload": {
-              "selection": true,
-              "comment_text": "jar food"
-            }
-          },
-          {
-            "name": "Extra Clothes",
-            "type": "Subcategory",
-            "classroomType":"classroom",
-            "payload": {
-              "selection": true,
-              "comment_text": "extra clothes"
-            }
-          },
-          {
-            "name": "Cereal",
-            "type": "Subcategory",
-            "classroomType":"classroom",
-            "payload": {
-              "selection": true,
-              "comment_text": "cereal"
-            }
-          },
-          {
-            "name": "Other",
-            "type": "Option",
-            "classroomType":"classroom",
-            "payload": {
-              "input": true,
-              "inputType": "text",
-              "comment_text": "$value."
-            }
-          }
-        ]
-      },
+      
       {
         "name": "Notes",
         "type": "Category",
