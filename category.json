@@ -111,28 +111,72 @@
         "classroomType":"infant",
         "payload": {
           "iconUrl": "https://s3.amazonaws.com/nurture-dev-categories-icons/activity/medication_alt.png",
-          "comment_text": "Medication $childName take today.$value",
-          "separator": " "
+          "comment_text": "Medication $childName takes today:  $value"
         },
-        "Options": [
+        "Subcategories": [
           {
-            "name": "Amount",
-            "type": "Option",
+            "name": "Tylenol",
+            "type": "Subcategory",
             "classroomType":"infant",
             "payload": {
-              "input": true,
-              "inputType": "text",
-              "comment_text": "\nAmount: $value"
+              "selection": true,
+              "comment_text": "Tylenol"
             }
           },
           {
-            "name": "Medication Type",
+            "name": "Motrin",
+            "type": "Subcategory",
+            "classroomType":"infant",
+            "payload": {
+              "selection": true,
+              "comment_text": "Motrin"
+            }
+          },
+          {
+            "name": "Children Pain & Fever",
+            "type": "Subcategory",
+            "classroomType":"infant",
+            "payload": {
+              "selection": true,
+              "comment_text": "Children Pain & Fever"
+            }
+          },
+          {
+            "name": "Orajel",
+            "type": "Subcategory",
+            "classroomType":"infant",
+            "payload": {
+              "selection": true,
+              "comment_text": "Orajel"
+            }
+          },
+          {
+            "name": "ibuprofen",
+            "type": "Subcategory",
+            "classroomType":"infant",
+            "payload": {
+              "selection": true,
+              "comment_text": "Ibuprofen"
+            }
+          },
+          {
+            "name": "Gas Drops",
+            "type": "Subcategory",
+            "classroomType":"infant",
+            "payload": {
+              "selection": true,
+              "comment_text": "Gas Drops"
+            }
+          },
+
+          {
+            "name": "Other",
             "type": "Option",
             "classroomType":"infant",
             "payload": {
               "input": true,
               "inputType": "text",
-              "comment_text": "\nMedication type: $value"
+              "comment_text": "$value."
             }
           }
         ]
@@ -652,7 +696,7 @@
         "classroomType":"classroom",
         "payload": {
           "iconUrl": "https://s3.amazonaws.com/nurture-dev-categories-icons/activity/medication_alt.png",
-          "comment_text": "Medication $childName take today:  $value"
+          "comment_text": "Medication $childName takes today:  $value"
         },
         "Subcategories": [
           {
@@ -689,6 +733,15 @@
             "payload": {
               "selection": true,
               "comment_text": "Orajel"
+            }
+          },
+          {
+            "name": "ibuprofen",
+            "type": "Subcategory",
+            "classroomType":"classroom",
+            "payload": {
+              "selection": true,
+              "comment_text": "Ibuprofen"
             }
           },
           {
