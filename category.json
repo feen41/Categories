@@ -1072,16 +1072,6 @@
           "selection": true,
           "comment_text": "great"
         }
-      },
-      {
-        "name": "Challenging",
-        "type": "Category",
-        "classroomType":"classroom",
-        "payload": {
-          "iconUrl": "https://s3.amazonaws.com/nurture-dev-categories-icons/behavior/challenging.png",
-          "selection": true,
-          "comment_text": "challenging"
-        }
       }
     ]
   },
