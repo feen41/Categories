@@ -59,6 +59,15 @@
             }
           },
           {
+                "name": "Wet/BM",
+                "type": "Option",
+                "classroomType":"infant",
+                "payload": {
+                  "selection": true,
+                  "comment_text": "$childName was wet/bm"
+                }
+              },
+          {
             "name": "BM",
             "type": "Option",
             "classroomType":"infant",
@@ -530,7 +539,7 @@
     ]
   },
   {
-    "name": "Activity",
+    "name": "General Care",
     "type": "Section",
     "classroomType":"classroom",
     "payload": {},
@@ -568,6 +577,15 @@
                 "payload": {
                   "selection": true,
                   "comment_text": "$childName was wet"
+                }
+              },
+              {
+                "name": "Wet/BM",
+                "type": "Option",
+                "classroomType":"classroom",
+                "payload": {
+                  "selection": true,
+                  "comment_text": "$childName was wet/bm"
                 }
               },
               {
@@ -691,6 +709,81 @@
               "input": true,
               "inputType": "text",
               "comment_text": "$value."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Supplies",
+        "type": "Category",
+        "classroomType":"infant",
+        "payload": {
+          "iconUrl": "https://s3.amazonaws.com/nurture-dev-categories-icons/activity/supplies.png",
+          "comment_text": "Supplies required by teacher: $value."
+        },
+        "Options": [
+          {
+            "name": "Diapers",
+            "type": "Option",
+            "classroomType":"infant",
+            "payload": {
+              "selection": true,
+              "comment_text": "diapers"
+            }
+          },
+          {
+            "name": "Ointment",
+            "type": "Option",
+            "classroomType":"infant",
+            "payload": {
+              "selection": true,
+              "comment_text": "ointment"
+            }
+          },
+          {
+            "name": "Wipes",
+            "type": "Option",
+            "classroomType":"infant",
+            "payload": {
+              "selection": true,
+              "comment_text": "wipes"
+            }
+          },
+          {
+            "name": "Jar Food",
+            "type": "Option",
+            "classroomType":"infant",
+            "payload": {
+              "selection": true,
+              "comment_text": "jar food"
+            }
+          },
+          {
+            "name": "Extra Clothes",
+            "type": "Option",
+            "classroomType":"infant",
+            "payload": {
+              "selection": true,
+              "comment_text": "extra clothes"
+            }
+          },
+          {
+            "name": "Cereal",
+            "type": "Subcategory",
+            "classroomType":"infant",
+            "payload": {
+              "selection": true,
+              "comment_text": "cereal"
+            }
+          },
+          {
+            "name": "Other",
+            "type": "Option",
+            "classroomType":"infant",
+            "payload": {
+              "input": true,
+              "inputType": "text",
+              "comment_text": "$value"
             }
           }
         ]
@@ -997,9 +1090,10 @@
         "type": "Category",
         "classroomType":"classroom",
         "payload": {
+          "input": true,
+          "inputType": "smallText",
           "iconUrl": "https://s3.amazonaws.com/nurture-dev-categories-icons/mood/tired.png",
-          "selection": true,
-          "comment_text": "tired/fussy"
+          "comment_text": "tired/fussy \nReason: $value"
         }
       },
       {
@@ -1058,9 +1152,10 @@
         "type": "Category",
         "classroomType":"classroom",
         "payload": {
+          "input": true,
+          "inputType": "smallText",
           "iconUrl": "https://s3.amazonaws.com/nurture-dev-categories-icons/behavior/trouble_listening.png",
-          "selection": true,
-          "comment_text": "trouble listening"
+          "comment_text": "trouble listening \nReason: $value"
         }
       },
       {
