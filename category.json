@@ -122,7 +122,8 @@
             "classroomType":"infant",
             "payload": {
               "selection": true,
-              "comment_text": "Tylenol"
+	      "input": true,
+              "comment_text": "Tylenol, amount: $value pc."
             }
           },
           {
@@ -131,7 +132,8 @@
             "classroomType":"infant",
             "payload": {
               "selection": true,
-              "comment_text": "Motrin"
+	      "input": true,
+              "comment_text": "Motrin, amount: $value pc."
             }
           },
           {
@@ -140,7 +142,8 @@
             "classroomType":"infant",
             "payload": {
               "selection": true,
-              "comment_text": "Children Pain & Fever"
+	      "input": true,
+              "comment_text": "Children Pain & Fever, amount: $value pc."
             }
           },
           {
@@ -149,7 +152,8 @@
             "classroomType":"infant",
             "payload": {
               "selection": true,
-              "comment_text": "Orajel"
+	      "input": true,
+              "comment_text": "Orajel, amount: $value pc."
             }
           },
           {
@@ -158,7 +162,7 @@
             "classroomType":"infant",
             "payload": {
               "selection": true,
-              "comment_text": "Ibuprofen"
+              "comment_text": "Ibuprofen, amount: $value pc."
             }
           },
           {
@@ -167,7 +171,8 @@
             "classroomType":"infant",
             "payload": {
               "selection": true,
-              "comment_text": "Gas Drops"
+	      "input": true,
+              "comment_text": "Gas Drops, amount: $value pc."
             }
           },
 
@@ -178,7 +183,7 @@
             "payload": {
               "input": true,
               "inputType": "text",
-              "comment_text": "$value."
+              "comment_text": "$value pc."
             }
           }
         ]
@@ -708,7 +713,8 @@
             "classroomType":"classroom",
             "payload": {
               "selection": true,
-              "comment_text": "Tylenol"
+	      "input": true,
+              "comment_text": "Tylenol, amount: $value pc."
             }
           },
           {
@@ -717,7 +723,8 @@
             "classroomType":"classroom",
             "payload": {
               "selection": true,
-              "comment_text": "Motrin"
+	      "input": true,
+              "comment_text": "Motrin, amount: $value pc."
             }
           },
           {
@@ -726,7 +733,8 @@
             "classroomType":"classroom",
             "payload": {
               "selection": true,
-              "comment_text": "Children Pain & Fever"
+	      "input": true,
+              "comment_text": "Children Pain & Fever, amount: $value pc."
             }
           },
           {
@@ -735,7 +743,8 @@
             "classroomType":"classroom",
             "payload": {
               "selection": true,
-              "comment_text": "Orajel"
+	      "input": true,
+              "comment_text": "Orajel, amount: $value pc."
             }
           },
           {
@@ -744,7 +753,8 @@
             "classroomType":"classroom",
             "payload": {
               "selection": true,
-              "comment_text": "Ibuprofen"
+	      "input": true,
+              "comment_text": "Ibuprofen, amount: $value pc."
             }
           },
           {
@@ -753,7 +763,8 @@
             "classroomType":"classroom",
             "payload": {
               "selection": true,
-              "comment_text": "Gas Drops"
+	      "input": true,
+              "comment_text": "Gas Drops, amount: $value pc."
             }
           },
 
@@ -764,7 +775,7 @@
             "payload": {
               "input": true,
               "inputType": "text",
-              "comment_text": "$value."
+              "comment_text": "$value pc."
             }
           }
         ]
