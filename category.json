@@ -19,7 +19,8 @@
             "optional": true,
             "size": "medium"
           },
-          "comment_text": "$value"
+          "comment_text": "$value",
+          "input": true
         }
       }
     ]
