@@ -253,7 +253,7 @@
             }
           },
           {
-            "name": "Else",
+            "name": "Other",
             "type": "Option",
             "classroomType":"infant",
             "payload": {
@@ -845,7 +845,7 @@
             }
           },
           {
-            "name": "Else",
+            "name": "Other",
             "type": "Option",
             "classroomType":"classroom",
             "payload": {
