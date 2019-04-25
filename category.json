@@ -253,7 +253,7 @@
             }
           },
           {
-            "name": "Other",
+            "name": "Other Supplies",
             "type": "Option",
             "classroomType":"infant",
             "payload": {
@@ -311,7 +311,7 @@
         "classroomType":"infant",
         "payload": {
           "iconUrl": "https://s3.amazonaws.com/nurture-dev-categories-icons/corevalue/helpfulness.png",
-          "comment_text": "Skiils development: $value.",
+          "comment_text": "Skills development: $value.",
           "separator": ";"
         },
         "options": [
@@ -845,7 +845,7 @@
             }
           },
           {
-            "name": "Other",
+            "name": "Other Supplies",
             "type": "Option",
             "classroomType":"classroom",
             "payload": {
