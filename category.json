@@ -19,7 +19,7 @@
             "optional": true,
             "size": "medium"
           },
-          "comment_text": "$value",
+          "comment_text": "$childName had $value",
           "input": true
         }
       }
