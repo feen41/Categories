@@ -19,6 +19,7 @@
             "optional": true,
             "size": "medium"
           },
+          "options": ["Breast milk", "Formula", "Other"],
           "comment_text": "$childName had $value",
           "input": true
         }
