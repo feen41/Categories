@@ -125,7 +125,7 @@
             "payload": {
               "selection": true,
 	      "input": true,
-              "comment_text": "Tylenol, amount: $value pc."
+              "comment_text": "Tylenol, amount: $value"
             }
           },
           {
@@ -135,7 +135,7 @@
             "payload": {
               "selection": true,
 	      "input": true,
-              "comment_text": "Motrin, amount: $value pc."
+              "comment_text": "Motrin, amount: $value"
             }
           },
           {
@@ -145,7 +145,7 @@
             "payload": {
               "selection": true,
 	      "input": true,
-              "comment_text": "Children Pain & Fever, amount: $value pc."
+              "comment_text": "Children Pain & Fever, amount: $value"
             }
           },
           {
@@ -155,7 +155,7 @@
             "payload": {
               "selection": true,
 	      "input": true,
-              "comment_text": "Orajel, amount: $value pc."
+              "comment_text": "Orajel, amount: $value"
             }
           },
           {
@@ -164,7 +164,7 @@
             "classroomType":"infant",
             "payload": {
               "selection": true,
-              "comment_text": "Ibuprofen, amount: $value pc."
+              "comment_text": "Ibuprofen, amount: $value"
             }
           },
           {
@@ -174,7 +174,7 @@
             "payload": {
               "selection": true,
 	      "input": true,
-              "comment_text": "Gas Drops, amount: $value pc."
+              "comment_text": "Gas Drops, amount: $value"
             }
           },
 
@@ -185,7 +185,7 @@
             "payload": {
               "input": true,
               "inputType": "text",
-              "comment_text": "$value pc."
+              "comment_text": "$value"
             }
           }
         ]
@@ -716,7 +716,7 @@
             "payload": {
               "selection": true,
 	      "input": true,
-              "comment_text": "Tylenol, amount: $value pc."
+              "comment_text": "Tylenol, amount: $value"
             }
           },
           {
@@ -726,7 +726,7 @@
             "payload": {
               "selection": true,
 	      "input": true,
-              "comment_text": "Motrin, amount: $value pc."
+              "comment_text": "Motrin, amount: $value"
             }
           },
           {
@@ -736,7 +736,7 @@
             "payload": {
               "selection": true,
 	      "input": true,
-              "comment_text": "Children Pain & Fever, amount: $value pc."
+              "comment_text": "Children Pain & Fever, amount: $value"
             }
           },
           {
@@ -746,7 +746,7 @@
             "payload": {
               "selection": true,
 	      "input": true,
-              "comment_text": "Orajel, amount: $value pc."
+              "comment_text": "Orajel, amount: $value"
             }
           },
           {
@@ -756,7 +756,7 @@
             "payload": {
               "selection": true,
 	      "input": true,
-              "comment_text": "Ibuprofen, amount: $value pc."
+              "comment_text": "Ibuprofen, amount: $value"
             }
           },
           {
@@ -766,7 +766,7 @@
             "payload": {
               "selection": true,
 	      "input": true,
-              "comment_text": "Gas Drops, amount: $value pc."
+              "comment_text": "Gas Drops, amount: $value"
             }
           },
 
@@ -777,7 +777,7 @@
             "payload": {
               "input": true,
               "inputType": "text",
-              "comment_text": "$value pc."
+              "comment_text": "$value"
             }
           }
         ]
