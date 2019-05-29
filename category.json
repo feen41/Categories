@@ -115,7 +115,7 @@
           "input": true,
           "inputType": "amount",
           "iconUrl": "https://s3.amazonaws.com/nurture-dev-categories-icons/activity/medication_alt.png",
-          "comment_text": "Medication $childName takes today:  $value"
+          "comment_text": "Medication $childName was given: $value"
         },
         "Subcategories": [
           {
@@ -196,7 +196,7 @@
         "classroomType":"infant",
         "payload": {
           "iconUrl": "https://s3.amazonaws.com/nurture-dev-categories-icons/activity/supplies.png",
-          "comment_text": "Supplies required by teacher: $value."
+          "comment_text": "Supplies needed: $value."
         },
         "Options": [
           {
@@ -550,16 +550,6 @@
         }
       },
       {
-        "name": "Tired/Fussy",
-        "type": "Category",
-        "classroomType":"infant",
-        "payload": {
-          "iconUrl": "https://s3.amazonaws.com/nurture-dev-categories-icons/mood/tired.png",
-          "selection": true,
-          "comment_text": "tired/fussy today"
-        }
-      },
-      {
         "name": "Cuddly",
         "type": "Category",
         "classroomType":"infant",
@@ -664,7 +654,7 @@
                 "classroomType":"classroom",
                 "payload": {
                   "selection": true,
-                  "comment_text": "and tried on potty"
+                  "comment_text": "and tried on the potty"
                 }
               },
               {
@@ -673,7 +663,7 @@
                 "classroomType":"classroom",
                 "payload": {
                   "selection": true,
-                  "comment_text": "and went on potty"
+                  "comment_text": "and went on the potty"
                 }
               },
               {
@@ -706,7 +696,7 @@
           "input": true,
           "inputType": "amount",
           "iconUrl": "https://s3.amazonaws.com/nurture-dev-categories-icons/activity/medication_alt.png",
-          "comment_text": "Medication $childName takes today:  $value"
+          "comment_text": "Medication $childName was given:  $value"
         },
         "Subcategories": [
           {
@@ -788,7 +778,7 @@
         "classroomType":"classroom",
         "payload": {
           "iconUrl": "https://s3.amazonaws.com/nurture-dev-categories-icons/activity/supplies.png",
-          "comment_text": "Supplies required by teacher: $value."
+          "comment_text": "Supplies needed: $value."
         },
         "Options": [
           {
@@ -907,11 +897,11 @@
     ]
   },
   {
-    "name": "C.O.R.E. Values",
+    "name": "Today I practiced…",
     "type": "Section",
     "classroomType":"classroom",
     "payload": {
-      "comment_text": "$childName demonstrated $value value today."
+      "comment_text": "$childName demonstrated $value today."
     },
     "categories": [
       {
@@ -977,11 +967,11 @@
     ]
   },
   {
-    "name": "Content I Explored Today",
+    "name": "Learning Centers I Explored Today",
     "type": "Section",
     "classroomType":"classroom",
     "payload": {
-      "comment_text": "$childName explored $value today."
+      "comment_text": "$childName explored the $value center today."
     },
     "categories": [
       {
@@ -1155,35 +1145,14 @@
         }
       },
       {
-        "name": "Tired/Fussy",
-        "type": "Category",
-        "classroomType":"classroom",
-        "payload": {
-          "input": true,
-          "inputType": "smallText",
-          "iconUrl": "https://s3.amazonaws.com/nurture-dev-categories-icons/mood/tired.png",
-          "comment_text": "tired/fussy \nReason: $value"
-        }
-      },
-      {
-        "name": "Goofy",
-        "type": "Category",
-        "classroomType":"classroom",
-        "payload": {
-          "selection": true,
-          "iconUrl": "https://s3.amazonaws.com/nurture-dev-categories-icons/mood/goofy.png",
-          "comment_text": "goofy"
-        }
-      },
-      {
-        "name": "Upset",
+        "name": "Upset/Fussy",
         "type": "Category",
         "classroomType":"classroom",
         "payload": {
           "input": true,
           "inputType": "smallText",
           "iconUrl": "https://s3.amazonaws.com/nurture-dev-categories-icons/mood/upset.png",
-          "comment_text": "upset. \nReason: $value"
+          "comment_text": "upset/fussy. \nReason: $value"
         }
       }
     ]
@@ -1214,16 +1183,6 @@
           "iconUrl": "https://s3.amazonaws.com/nurture-dev-categories-icons/behavior/acceptable.png",
           "selection": true,
           "comment_text": "acceptable behavior today"
-        }
-      },
-      {
-        "name": "Great Day",
-        "type": "Category",
-        "classroomType":"classroom",
-        "payload": {
-          "iconUrl": "https://s3.amazonaws.com/nurture-dev-categories-icons/behavior/great_day.png",
-          "selection": true,
-          "comment_text": "great behavior today"
         }
       },
       {
