@@ -119,23 +119,23 @@
         },
         "Subcategories": [
           {
-            "name": "Tylenol",
+            "name": "Tylenol®",
             "type": "Subcategory",
             "classroomType":"infant",
             "payload": {
               "selection": true,
 	      "input": true,
-              "comment_text": "Tylenol, amount: $value"
+              "comment_text": "Tylenol®, amount: $value"
             }
           },
           {
-            "name": "Motrin",
+            "name": "Motrin®",
             "type": "Subcategory",
             "classroomType":"infant",
             "payload": {
               "selection": true,
 	      "input": true,
-              "comment_text": "Motrin, amount: $value"
+              "comment_text": "Motrin®, amount: $value"
             }
           },
           {
@@ -149,13 +149,13 @@
             }
           },
           {
-            "name": "Orajel",
+            "name": "Orajel™",
             "type": "Subcategory",
             "classroomType":"infant",
             "payload": {
               "selection": true,
 	      "input": true,
-              "comment_text": "Orajel, amount: $value"
+              "comment_text": "Orajel™, amount: $value"
             }
           },
           {
@@ -710,23 +710,23 @@
         },
         "Subcategories": [
           {
-            "name": "Tylenol",
+            "name": "Tylenol®",
             "type": "Subcategory",
             "classroomType":"classroom",
             "payload": {
               "selection": true,
 	      "input": true,
-              "comment_text": "Tylenol, amount: $value"
+              "comment_text": "Tylenol®, amount: $value"
             }
           },
           {
-            "name": "Motrin",
+            "name": "Motrin®",
             "type": "Subcategory",
             "classroomType":"classroom",
             "payload": {
               "selection": true,
 	      "input": true,
-              "comment_text": "Motrin, amount: $value"
+              "comment_text": "Motrin®, amount: $value"
             }
           },
           {
@@ -740,13 +740,13 @@
             }
           },
           {
-            "name": "Orajel",
+            "name": "Orajel™",
             "type": "Subcategory",
             "classroomType":"classroom",
             "payload": {
               "selection": true,
 	      "input": true,
-              "comment_text": "Orajel, amount: $value"
+              "comment_text": "Orajel™, amount: $value"
             }
           },
           {
