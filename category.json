@@ -264,17 +264,6 @@
             }
           }
         ]
-      },
-      {
-        "name": "Milestones",
-        "type": "Category",
-        "classroomType":"infant",
-        "payload": {
-          "iconUrl": "https://s3.amazonaws.com/nurture-dev-categories-icons/activity/milestone.png",
-          "input": true,
-          "inputType": "input_box",
-          "comment_text": "Milestones: $value"
-        }
       }
     ]
   },
@@ -843,53 +832,6 @@
               "input": true,
               "inputType": "text",
               "comment_text": "$value"
-            }
-          }
-        ]
-      },
-      {
-        "name": "Milestones",
-        "type": "Category",
-        "classroomType":"classroom",
-        "payload": {
-          "iconUrl": "https://s3.amazonaws.com/nurture-dev-categories-icons/activity/milestone.png",
-          "comment_text": "Milestones: $value."
-        },
-        "Subcategories": [
-          {
-            "name": "Potty training",
-            "type": "Subcategory",
-            "classroomType":"classroom",
-            "payload": {
-              "selection": true,
-              "comment_text": "potty training"
-            }
-          },
-          {
-            "name": "Leader",
-            "type": "Subcategory",
-            "classroomType":"classroom",
-            "payload": {
-              "selection": true,
-              "comment_text": "leadership"
-            }
-          },
-          {
-            "name": "Sharing",
-            "type": "Subcategory",
-            "classroomType":"classroom",
-            "payload": {
-              "selection": true,
-              "comment_text": "sharing"
-            }
-          },
-          {
-            "name": "Speech",
-            "type": "Subcategory",
-            "classroomType":"classroom",
-            "payload": {
-              "selection": true,
-              "comment_text": "speech"
             }
           }
         ]
