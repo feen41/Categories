@@ -296,12 +296,12 @@
         }
       },
       {
-        "name": "prodelopment",
+        "name": "Development",
         "type": "Category",
         "classroomType":"infant",
         "payload": {
           "iconUrl": "https://s3.amazonaws.com/nurture-prod-categories-icons/corevalue/helpfulness.png",
-          "comment_text": "Skills prodelopment: $value.",
+          "comment_text": "Skills development: $value.",
           "separator": ";"
         },
         "options": [
