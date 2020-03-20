@@ -308,10 +308,101 @@
         "type": "Category",
         "classroomType":"infant",
         "payload": {
-          "iconUrl": "https://s3.amazonaws.com/nurture-prod-categories-icons/activity/puzzles.png",
-          "selection": true,
-          "comment_text": "baby signs"
-        }
+          "iconUrl": "https://s3.amazonaws.com/nurture-prod-categories-icons/activity/supplies.png",
+          "comment_text": "baby signs: $value."
+        },
+        "options": [
+          {
+            "name": "Eat",
+            "type": "Option",
+            "classroomType":"infant",
+            "payload": {
+              "selection": true,
+              "multiple": true,
+              "comment_text": "eat"
+            }
+          },
+          {
+            "name": "Drink",
+            "type": "Option",
+            "classroomType":"infant",
+            "payload": {
+              "selection": true,
+              "multiple": true,
+              "comment_text": "drink"
+            }
+          },
+          {
+            "name": "More",
+            "type": "Option",
+            "classroomType":"infant",
+            "payload": {
+              "selection": true,
+              "multiple": true,
+              "comment_text": "more"
+            }
+          },
+          {
+            "name": "Play",
+            "type": "Option",
+            "classroomType":"infant",
+            "payload": {
+              "selection": true,
+              "multiple": true,
+              "comment_text": "play"
+            }
+          },
+          {
+            "name": "All Done",
+            "type": "Option",
+            "classroomType":"infant",
+            "payload": {
+              "selection": true,
+              "multiple": true,
+              "comment_text": "all done"
+            }
+          },
+          {
+            "name": "Shoes",
+            "type": "Option",
+            "classroomType":"infant",
+            "payload": {
+              "selection": true,
+              "multiple": true,
+              "comment_text": "shoes"
+            }
+          },
+          {
+            "name": "Sleep",
+            "type": "Option",
+            "classroomType":"infant",
+            "payload": {
+              "selection": true,
+              "multiple": true,
+              "comment_text": "sleep"
+            }
+          },
+          {
+            "name": "Thank you",
+            "type": "Option",
+            "classroomType":"infant",
+            "payload": {
+              "selection": true,
+              "multiple": true,
+              "comment_text": "thank you"
+            }
+          },
+          {
+            "name": "Friend",
+            "type": "Option",
+            "classroomType":"infant",
+            "payload": {
+              "selection": true,
+              "multiple": true,
+              "comment_text": "friend"
+            }
+          },
+        ]
       },
       {
         "name": "Art",
@@ -328,10 +419,29 @@
         "type": "Category",
         "classroomType":"infant",
         "payload": {
-          "iconUrl": "https://s3.amazonaws.com/nurture-prod-categories-icons/activity/discovery.png",
-          "selection": true,
-          "comment_text": "book"
-        }
+          "iconUrl": "https://s3.amazonaws.com/nurture-prod-categories-icons/activity/diapers.png",
+          "comment_text": "book - $value"
+        },
+        "Options": [
+          {
+            "name": "Look at",
+            "type": "Option",
+            "classroomType":"infant",
+            "payload": {
+              "selection": true,
+              "comment_text": "look at."
+            }
+          },
+          {
+            "name": "Read to",
+            "type": "Option",
+            "classroomType":"infant",
+            "payload": {
+              "selection": true,
+              "comment_text": "read to."
+            }
+          }
+        ]
       },
       {
         "name": "Building",
@@ -368,10 +478,38 @@
         "type": "Category",
         "classroomType":"infant",
         "payload": {
-          "iconUrl": "https://s3.amazonaws.com/nurture-prod-categories-icons/activity/art.png",
-          "selection": true,
-          "comment_text": "music and movement"
-        }
+          "iconUrl": "https://s3.amazonaws.com/nurture-prod-categories-icons/activity/diapers.png",
+          "comment_text": "$value"
+        },
+        "Options": [
+          {
+            "name": "Sang",
+            "type": "Option",
+            "classroomType":"infant",
+            "payload": {
+              "selection": true,
+              "comment_text": "sang"
+            }
+          },
+          {
+            "name": "Listen to",
+            "type": "Option",
+            "classroomType":"infant",
+            "payload": {
+              "selection": true,
+              "comment_text": "listen to."
+            }
+          },
+          {
+            "name": "Danced",
+            "type": "Option",
+            "classroomType":"infant",
+            "payload": {
+              "selection": true,
+              "comment_text": "danced"
+            }
+          }
+        ]
       },
       {
         "name": "Sensory Play",
@@ -595,5 +733,649 @@
         }
       }
     ]
-  }
+  },
+
+  {
+    "name": "About My Day",
+    "type": "Section",
+    "classroomType":"classroom",
+    "payload": {},
+    "categories": [
+      {
+        "name": "Bathroom",
+        "type": "Category",
+        "manageableNotification": "true",
+        "classroomType":"classroom",
+        "payload": {
+          "iconUrl": "https://s3.amazonaws.com/nurture-prod-categories-icons/activity/diapers.png",
+          "comment_text": "$value",
+          "separator": " "
+        },
+        "Subcategories": [
+          {
+            "name": "At Potty Time I Was:",
+            "type": "Subcategory",
+            "classroomType":"classroom",
+            "payload": {},
+            "Options": [
+              {
+                "name": "Dry",
+                "type": "Option",
+                "classroomType":"classroom",
+                "payload": {
+                  "selection": true,
+                  "comment_text": "$childName was dry"
+                }
+              },
+              {
+                "name": "Wet",
+                "type": "Option",
+                "classroomType":"classroom",
+                "payload": {
+                  "selection": true,
+                  "comment_text": "$childName was wet"
+                }
+              },
+              {
+                "name": "Wet/BM",
+                "type": "Option",
+                "classroomType":"classroom",
+                "payload": {
+                  "selection": true,
+                  "comment_text": "$childName was wet/bm"
+                }
+              },
+              {
+                "name": "BM",
+                "type": "Option",
+                "classroomType":"classroom",
+                "payload": {
+                  "selection": true,
+                  "comment_text": "$childName had a BM"
+                }
+              }
+            ]
+          },
+          {
+            "name": "On the Potty I:",
+            "type": "Subcategory",
+            "classroomType":"classroom",
+            "payload": {},
+            "Options": [
+              {
+                "name": "Tried",
+                "type": "Option",
+                "classroomType":"classroom",
+                "payload": {
+                  "selection": true,
+                  "comment_text": "and tried on the potty"
+                }
+              },
+              {
+                "name": "Went",
+                "type": "Option",
+                "classroomType":"classroom",
+                "payload": {
+                  "selection": true,
+                  "comment_text": "and went on the potty"
+                }
+              },
+              {
+                "name": "Went BM",
+                "type": "Option",
+                "classroomType":"classroom",
+                "payload": {
+                  "selection": true,
+                  "comment_text": "and went BM"
+                }
+              },
+              {
+                "name": "Did not try",
+                "type": "Option",
+                "classroomType":"classroom",
+                "payload": {
+                  "selection": true,
+                  "comment_text": "and did not try"
+                }
+              }
+            ]
+          }
+        ]
+      },
+
+      {
+        "name": "Medication",
+        "type": "Category",
+        "classroomType":"classroom",
+        "payload": {
+          "input": true,
+          "inputType": "amount",
+          "iconUrl": "https://s3.amazonaws.com/nurture-prod-categories-icons/activity/medication_alt.png",
+          "comment_text": "Medication $childName was given:  $value"
+        },
+        "Subcategories": [
+          {
+            "name": "Tylenol®",
+            "type": "Subcategory",
+            "classroomType":"classroom",
+            "payload": {
+              "selection": true,
+        "input": true,
+              "comment_text": "Tylenol®, amount: $value"
+            }
+          },
+          {
+            "name": "Motrin®",
+            "type": "Subcategory",
+            "classroomType":"classroom",
+            "payload": {
+              "selection": true,
+        "input": true,
+              "comment_text": "Motrin®, amount: $value"
+            }
+          },
+          {
+            "name": "Children Pain & Fever",
+            "type": "Subcategory",
+            "classroomType":"classroom",
+            "payload": {
+              "selection": true,
+        "input": true,
+              "comment_text": "Children Pain & Fever, amount: $value"
+            }
+          },
+          {
+            "name": "Orajel™",
+            "type": "Subcategory",
+            "classroomType":"classroom",
+            "payload": {
+              "selection": true,
+        "input": true,
+              "comment_text": "Orajel™, amount: $value"
+            }
+          },
+          {
+            "name": "ibuprofen",
+            "type": "Subcategory",
+            "classroomType":"classroom",
+            "payload": {
+              "selection": true,
+        "input": true,
+              "comment_text": "Ibuprofen, amount: $value"
+            }
+          },
+          {
+            "name": "Gas Drops",
+            "type": "Subcategory",
+            "classroomType":"classroom",
+            "payload": {
+              "selection": true,
+        "input": true,
+              "comment_text": "Gas Drops, amount: $value"
+            }
+          },
+
+          {
+            "name": "Other",
+            "type": "Option",
+            "classroomType":"classroom",
+            "payload": {
+              "input": true,
+              "inputType": "text",
+              "comment_text": "$value"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Supplies",
+        "type": "Category",
+        "classroomType":"classroom",
+        "payload": {
+          "iconUrl": "https://s3.amazonaws.com/nurture-prod-categories-icons/activity/supplies.png",
+          "comment_text": "Supplies needed: $value."
+        },
+        "Options": [
+          {
+            "name": "Diapers",
+            "type": "Option",
+            "classroomType":"classroom",
+            "payload": {
+              "selection": true,
+              "comment_text": "diapers"
+            }
+          },
+          {
+            "name": "Ointment",
+            "type": "Option",
+            "classroomType":"classroom",
+            "payload": {
+              "selection": true,
+              "comment_text": "ointment"
+            }
+          },
+          {
+            "name": "Wipes",
+            "type": "Option",
+            "classroomType":"classroom",
+            "payload": {
+              "selection": true,
+              "comment_text": "wipes"
+            }
+          },
+          {
+            "name": "Jar Food",
+            "type": "Option",
+            "classroomType":"classroom",
+            "payload": {
+              "selection": true,
+              "comment_text": "jar food"
+            }
+          },
+          {
+            "name": "Extra Clothes",
+            "type": "Option",
+            "classroomType":"classroom",
+            "payload": {
+              "selection": true,
+              "comment_text": "extra clothes"
+            }
+          },
+          {
+            "name": "Cereal",
+            "type": "Subcategory",
+            "classroomType":"classroom",
+            "payload": {
+              "selection": true,
+              "comment_text": "cereal"
+            }
+          },
+          {
+            "name": "Other Supplies",
+            "type": "Option",
+            "classroomType":"classroom",
+            "payload": {
+              "input": true,
+              "inputType": "text",
+              "comment_text": "$value"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Learning Centers I Explored Today",
+    "type": "Section",
+    "classroomType":"classroom",
+    "payload": {
+      "comment_text": "$childName explored THE $value today."
+    },
+    "categories": [
+      {
+        "name": "Art",
+        "type": "Category",
+        "classroomType":"classroom",
+        "payload": {
+          "iconUrl": "https://s3.amazonaws.com/nurture-prod-categories-icons/activity/art.png",
+          "selection": true,
+          "comment_text": "arts"
+        }
+      },
+      {
+        "name": "Book",
+        "type": "Category",
+        "classroomType":"classroom",
+        "payload": {
+          "iconUrl": "https://s3.amazonaws.com/nurture-prod-categories-icons/activity/book.png",
+          "selection": true,
+          "comment_text": "book"
+        }
+      },
+      {
+        "name": "Building",
+        "type": "Category",
+        "classroomType":"classroom",
+        "payload": {
+          "iconUrl": "https://s3.amazonaws.com/nurture-prod-categories-icons/activity/discovery.png",
+          "selection": true,
+          "comment_text": "building"
+        }
+      },
+      {
+        "name": "Dramatic Play",
+        "type": "Category",
+        "classroomType":"classroom",
+        "payload": {
+          "iconUrl": "https://s3.amazonaws.com/nurture-prod-categories-icons/activity/book.png",
+          "selection": true,
+          "comment_text": "dramatic play"
+        }
+      },
+      {
+        "name": "Literacy",
+        "type": "Category",
+        "classroomType":"classroom",
+        "payload": {
+          "iconUrl": "https://s3.amazonaws.com/nurture-prod-categories-icons/activity/movement.png",
+          "selection": true,
+          "comment_text": "literacy"
+        }
+      },
+      {
+        "name": "Math & Science",
+        "type": "Category",
+        "classroomType":"classroom",
+        "payload": {
+          "iconUrl": "https://s3.amazonaws.com/nurture-prod-categories-icons/activity/home_living.png",
+          "selection": true,
+          "comment_text": "home living"
+        }
+      },
+      {
+        "name": "Music & Movement",
+        "type": "Category",
+        "classroomType":"classroom",
+        "payload": {
+          "iconUrl": "https://s3.amazonaws.com/nurture-prod-categories-icons/activity/art.png",
+          "selection": true,
+          "comment_text": "arts"
+        }
+      },
+      {
+        "name": "Puzzles & Fine Motor",
+        "type": "Category",
+        "classroomType":"classroom",
+        "payload": {
+          "iconUrl": "https://s3.amazonaws.com/nurture-prod-categories-icons/activity/count_sort.png",
+          "selection": true,
+          "comment_text": "count & sort"
+        }
+      },
+      {
+        "name": "Sensory Play",
+        "type": "Category",
+        "classroomType":"classroom",
+        "payload": {
+          "iconUrl": "https://s3.amazonaws.com/nurture-prod-categories-icons/activity/sand_water.png",
+          "selection": true,
+          "comment_text": "sand & water"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Fruits of the Spirit I Showed Today",
+    "type": "Section",
+    "classroomType":"classroom",
+    "payload": {
+      "comment_text": "$childName showed THE $value today."
+    },
+    "categories": [
+      {
+        "name": "Compassion",
+        "type": "Category",
+        "classroomType":"classroom",
+        "payload": {
+          "iconUrl": "https://s3.amazonaws.com/nurture-prod-categories-icons/activity/art.png",
+          "selection": true,
+          "comment_text": "compassion"
+        }
+      },
+      {
+        "name": "Joy",
+        "type": "Category",
+        "classroomType":"classroom",
+        "payload": {
+          "iconUrl": "https://s3.amazonaws.com/nurture-prod-categories-icons/activity/book.png",
+          "selection": true,
+          "comment_text": "joy"
+        }
+      },
+      {
+        "name": "Contentment",
+        "type": "Category",
+        "classroomType":"classroom",
+        "payload": {
+          "iconUrl": "https://s3.amazonaws.com/nurture-prod-categories-icons/activity/discovery.png",
+          "selection": true,
+          "comment_text": "building"
+        }
+      },
+      {
+        "name": "Patience",
+        "type": "Category",
+        "classroomType":"classroom",
+        "payload": {
+          "iconUrl": "https://s3.amazonaws.com/nurture-prod-categories-icons/activity/movement.png",
+          "selection": true,
+          "comment_text": "patience"
+        }
+      },
+      {
+        "name": "Kindness",
+        "type": "Category",
+        "classroomType":"classroom",
+        "payload": {
+          "iconUrl": "https://s3.amazonaws.com/nurture-prod-categories-icons/activity/home_living.png",
+          "selection": true,
+          "comment_text": "kindness"
+        }
+      },
+      {
+        "name": "Helpfulness",
+        "type": "Category",
+        "classroomType":"classroom",
+        "payload": {
+          "iconUrl": "https://s3.amazonaws.com/nurture-prod-categories-icons/activity/art.png",
+          "selection": true,
+          "comment_text": "helpfulness"
+        }
+      },
+      {
+        "name": "Bravery",
+        "type": "Category",
+        "classroomType":"classroom",
+        "payload": {
+          "iconUrl": "https://s3.amazonaws.com/nurture-prod-categories-icons/activity/count_sort.png",
+          "selection": true,
+          "comment_text": "bravery"
+        }
+      },
+        {
+        "name": "Gentleness",
+        "type": "Category",
+        "classroomType":"classroom",
+        "payload": {
+          "iconUrl": "https://s3.amazonaws.com/nurture-prod-categories-icons/activity/book.png",
+          "selection": true,
+          "comment_text": "gentleness"
+        }
+      },
+      {
+        "name": "Self Control",
+        "type": "Category",
+        "classroomType":"classroom",
+        "payload": {
+          "iconUrl": "https://s3.amazonaws.com/nurture-prod-categories-icons/activity/sand_water.png",
+          "selection": true,
+          "comment_text": "self control"
+        }
+      },
+        {
+        "name": "Honestly",
+        "type": "Category",
+        "classroomType":"classroom",
+        "payload": {
+          "iconUrl": "https://s3.amazonaws.com/nurture-prod-categories-icons/activity/book.png",
+          "selection": true,
+          "comment_text": "honestly"
+        }
+      }
+    ]
+  },
+   {
+    "name": "Mood",
+    "type": "Section",
+    "classroomType":"classroom",
+    "payload": {
+      "comment_text": "$childName was $value."
+    },
+    "categories": [
+      {
+        "name": "Busy",
+        "type": "Category",
+        "classroomType":"classroom",
+        "payload": {
+          "iconUrl": "https://s3.amazonaws.com/nurture-prod-categories-icons/mood/happy.png",
+          "selection": true,
+          "comment_text": "busy today"
+        }
+      },
+      {
+        "name": "Curious",
+        "type": "Category",
+        "classroomType":"classroom",
+        "payload": {
+          "iconUrl": "https://s3.amazonaws.com/nurture-prod-categories-icons/mood/sad.png",
+          "selection": true,
+          "comment_text": "curious today"
+        }
+      },
+      {
+        "name": "Happy",
+        "type": "Category",
+        "classroomType":"classroom",
+        "payload": {
+          "iconUrl": "https://s3.amazonaws.com/nurture-prod-categories-icons/mood/quiet.png",
+          "selection": true,
+          "comment_text": "happy today"
+        }
+      },
+      {
+        "name": "Quiet",
+        "type": "Category",
+        "classroomType":"classroom",
+        "payload": {
+          "iconUrl": "https://s3.amazonaws.com/nurture-prod-categories-icons/mood/talkative.png",
+          "selection": true,
+          "comment_text": "quiet today"
+        }
+      },
+      {
+        "name": "Sleepy",
+        "type": "Category",
+        "classroomType":"classroom",
+        "payload": {
+          "iconUrl": "https://s3.amazonaws.com/nurture-prod-categories-icons/mood/busy_playful.png",
+          "selection": true,
+          "comment_text": "sleepy today"
+        }
+      },
+      {
+        "name": "Sad",
+        "type": "Category",
+        "classroomType":"classroom",
+        "payload": {
+          "input": true,
+          "inputType": "smallText",
+          "iconUrl": "https://s3.amazonaws.com/nurture-prod-categories-icons/mood/upset.png",
+          "comment_text": "sad. \nReason: $value"
+        }
+      },
+      {
+        "name": "Talkactive",
+        "type": "Category",
+        "classroomType":"classroom",
+        "payload": {
+          "iconUrl": "https://s3.amazonaws.com/nurture-prod-categories-icons/mood/busy_playful.png",
+          "selection": true,
+          "comment_text": "talkactive today"
+        }
+      },
+      {
+        "name": "Upset",
+        "type": "Category",
+        "classroomType":"classroom",
+        "payload": {
+          "iconUrl": "https://s3.amazonaws.com/nurture-prod-categories-icons/mood/busy_playful.png",
+          "selection": true,
+          "comment_text": "upset today"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Behavior",
+    "type": "Section",
+    "classroomType":"classroom",
+    "payload": {
+      "comment_text": "$childName demonstrated $value."
+    },
+    "categories": [
+      {
+        "name": "Excellent",
+        "type": "Category",
+        "classroomType":"classroom",
+        "payload": {
+          "iconUrl": "https://s3.amazonaws.com/nurture-prod-categories-icons/behavior/excellent.png",
+          "selection": true,
+          "comment_text": "excellent behavior today"
+        }
+      },
+      {
+        "name": "Trouble Listening",
+        "type": "Category",
+        "classroomType":"classroom",
+        "payload": {
+          "input": true,
+          "inputType": "smallText",
+          "iconUrl": "https://s3.amazonaws.com/nurture-prod-categories-icons/behavior/trouble_listening.png",
+          "comment_text": "trouble listening \nReason: $value"
+        }
+      },
+      {
+        "name": "Great Day",
+        "type": "Category",
+        "classroomType":"classroom",
+        "payload": {
+          "iconUrl": "https://s3.amazonaws.com/nurture-prod-categories-icons/behavior/acceptable.png",
+          "selection": true,
+          "comment_text": "great day"
+        }
+      },
+      {
+        
+        "name": "Acceptable",
+        "type": "Category",
+        "classroomType":"classroom",
+        "payload": {
+          "iconUrl": "https://s3.amazonaws.com/nurture-prod-categories-icons/behavior/acceptable.png",
+          "selection": true,
+          "comment_text": "acceptable behavior today"
+        }
+      }
+      
+    ]
+  },
+  {
+    "name": "Message",
+    "type": "Section",
+    "classroomType":"classroom",
+    "payload": {},
+    "categories": [
+      
+      {
+        "name": "Notes",
+        "type": "Category",
+        "classroomType":"classroom",
+        "payload": {
+          "iconUrl": "https://s3.amazonaws.com/nurture-prod-categories-icons/activity/note_alt.png",
+          "input": true,
+          "inputType": "text",
+          "comment_text": "$value"
+        }
+      }
+    ]
+  },
 ]
