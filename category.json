@@ -99,10 +99,20 @@
           {
             "name": "Cream",
             "type": "Option",
-            "classroomType":"classroom",
+            "classroomType":"infant",
             "payload": {
               "selection": true,
-              "comment_text": "$childName was cream"
+              "comment_text": "was cream"
+            }
+          },
+          {
+            "name": "Other status",
+            "type": "Option",
+            "classroomType":"infant",
+            "payload": {
+              "input": true,
+              "inputType": "text",
+              "comment_text": "$value"
             }
           }
           
