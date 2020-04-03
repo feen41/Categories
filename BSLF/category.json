@@ -566,7 +566,7 @@
         "type": "Category",
         "classroomType":"infant",
         "payload": {
-          "iconUrl": "https://nurture-prod-835550300439-categories-icons.s3.amazonaws.com/classroom/Fruits+of+the+Spirit+I+Showed+Today/Kindness.png",
+          "iconUrl": "https://nurture-prod-835550300439-categories-icons.s3.amazonaws.com/classroom/Fruits+of+the+Spirit+I+Showed+Today/kindness.png",
           "selection": true,
           "comment_text": "kindness"
         }
@@ -1157,7 +1157,7 @@
         "type": "Category",
         "classroomType":"classroom",
         "payload": {
-          "iconUrl": "https://nurture-prod-835550300439-categories-icons.s3.amazonaws.com/classroom/Fruits+of+the+Spirit+I+Showed+Today/Kindness.png",
+          "iconUrl": "https://nurture-prod-835550300439-categories-icons.s3.amazonaws.com/classroom/Fruits+of+the+Spirit+I+Showed+Today/kindness.png",
           "selection": true,
           "comment_text": "kindness"
         }

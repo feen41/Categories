@@ -61,14 +61,14 @@
             }
           },
           {
-                "name": "Wet/BM",
-                "type": "Option",
-                "classroomType":"infant",
-                "payload": {
-                  "selection": true,
-                  "comment_text": "$childName was wet/bm"
-                }
-              },
+            "name": "Wet/BM",
+            "type": "Option",
+            "classroomType":"infant",
+            "payload": {
+              "selection": true,
+              "comment_text": "$childName was wet/bm"
+            }
+          },
           {
             "name": "BM",
             "type": "Option",
@@ -97,14 +97,15 @@
             }
           },
           {
-            "name": "Wet & BM",
+            "name": "Cream",
             "type": "Option",
-            "classroomType":"infant",
+            "classroomType":"classroom",
             "payload": {
               "selection": true,
-              "comment_text": "wet and BM"
+              "comment_text": "$childName was cream"
             }
           }
+          
         ]
       },
       {
@@ -627,6 +628,15 @@
                 "payload": {
                   "selection": true,
                   "comment_text": "$childName had a BM"
+                }
+              },
+              {
+                "name": "Cream",
+                "type": "Option",
+                "classroomType":"classroom",
+                "payload": {
+                  "selection": true,
+                  "comment_text": "$childName was cream"
                 }
               }
             ]
